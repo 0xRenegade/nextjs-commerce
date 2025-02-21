@@ -12,9 +12,9 @@ import { Menu } from "lucide-react"
 import Link from "next/link"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faShop } from "@fortawesome/free-solid-svg-icons"
+import { faShop, faCartShopping } from "@fortawesome/free-solid-svg-icons"
 
-library.add(faShop)
+library.add(faShop, faCartShopping)
 
 const NavItem = {
   FIRST: {
@@ -69,6 +69,9 @@ export default function NavBar() {
           >
             {NavItem.THIRD.TITLE}
           </Link>
+          <Link href="/cart" className="flex items-center justify-center">
+            <FontAwesomeIcon icon={faCartShopping} size="2xl" />
+          </Link>
           <Link
             href={NavItem.FOURTH.LINK}
             className="text-slate-100 bg-slate-950 p-2 rounded"
@@ -116,6 +119,9 @@ export default function NavBar() {
                   className="text-slate-950 hover:text-slate-100 hover:bg-slate-950 p-2 rounded text-center"
                 >
                   {NavItem.THIRD.TITLE}
+                </Link>
+                <Link href="/cart" className="flex items-center justify-center">
+                  <FontAwesomeIcon icon={faCartShopping} size="2xl" />
                 </Link>
                 <Link
                   href={NavItem.FOURTH.LINK}
