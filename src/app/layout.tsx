@@ -1,10 +1,14 @@
-import type { Metadata } from "next"
-import "./globals.css"
+"use client"
 
-export const metadata: Metadata = {
-  title: "Nextjs Commerce",
-  description: "Created by 0xRenegade",
-}
+// import type { Metadata } from "next"
+import "./globals.css"
+import NavBar from "@/components/layout/NavBar"
+import Footer from "@/components/layout/Footer"
+
+// export const metadata: Metadata = {
+//   title: "Nextjs Commerce",
+//   description: "Created by 0xRenegade",
+// }
 
 export default function RootLayout({
   children,
@@ -13,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="flex flex-col min-h-screen">
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }

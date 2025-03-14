@@ -13,6 +13,7 @@ import Link from "next/link"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faShop, faCartShopping } from "@fortawesome/free-solid-svg-icons"
+import SearchBar from "@/components/ui/searchbar"
 
 library.add(faShop, faCartShopping)
 
@@ -51,6 +52,7 @@ export default function NavBar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
+          <SearchBar />
           <Link
             href={NavItem.FIRST.LINK}
             className="text-slate-950 hover:text-slate-100 hover:bg-slate-950 p-2 rounded"
