@@ -4,6 +4,8 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 
+library.add(faMagnifyingGlass)
+
 // TODO
 // Turn this into Dialog component
 // with search results from backend instead
