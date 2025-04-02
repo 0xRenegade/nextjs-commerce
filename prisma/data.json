@@ -1,0 +1,727 @@
+[
+  {
+    "category": "Electronics",
+    "data": [
+      {
+        "id": 1,
+        "title": "Quantum Sound Bluetooth Speaker",
+        "description": "Experience room-filling sound with the Quantum Sound Bluetooth Speaker. This portable Bluetooth speaker delivers crystal-clear audio and deep bass for music lovers. It features a long-lasting rechargeable battery and a rugged build, making it perfect for both indoor jams and outdoor adventures.",
+        "price": 337.16,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 2,
+        "title": "PulseWave Wireless Headphones",
+        "description": "Immerse yourself in rich, high-fidelity sound with PulseWave Wireless Headphones. These wireless headphones feature noise-isolating cushions and a lightweight design for all-day comfort. Enjoy up to 12 hours of playtime per charge and intuitive on-ear controls that make listening on the go a breeze.",
+        "price": 257.77,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 3,
+        "title": "ChronoTrack Smartwatch",
+        "description": "Stay connected and on track with the ChronoTrack Smartwatch. This sleek smartwatch keeps you updated with notifications and monitors your health metrics in real-time. It's water-resistant and offers customizable watch faces and bands, blending technology with personal style effortlessly.",
+        "price": 352.76,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 4,
+        "title": "PhotonView Digital Camera",
+        "description": "Capture every moment in stunning detail using the PhotonView Digital Camera. This digital camera boasts high resolution imaging and multiple shooting modes to suit any situation. Its compact design and easy controls make it perfect for travel, so you never miss a shot of life's best moments.",
+        "price": 403.38,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 5,
+        "title": "SkySnap Quadcopter Drone",
+        "description": "Take your photography to new heights with the SkySnap Quadcopter Drone. This quadcopter drone comes equipped with an HD camera and stable flight technology, making it easy to capture aerial photos and videos. With intuitive controls and a durable build, it's ideal for both beginners and hobbyists.",
+        "price": 182.25,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 6,
+        "title": "ZenBook UltraThin Laptop",
+        "description": "Work and play anywhere with the ZenBook UltraThin Laptop. This ultrathin laptop packs a powerful processor and a vibrant display into a sleek, lightweight frame. Its fast SSD storage and all-day battery life ensure smooth performance for everything from creative projects to streaming your favorite shows.",
+        "price": 336.63,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 7,
+        "title": "PixelPad Pro Tablet",
+        "description": "Meet your new on-the-go entertainment hub: the PixelPad Pro Tablet. Featuring a sharp display and responsive touchscreen, this tablet is perfect for reading, streaming, and browsing. Its slim design and robust battery make it easy to carry, while ample storage holds all your apps and media.",
+        "price": 130.24,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 8,
+        "title": "VistaView 4K Monitor",
+        "description": "Upgrade your workstation with the VistaView 4K Monitor. This 4K monitor offers vivid colors and sharp detail, bringing photos, videos, and games to life. With its wide viewing angles and adjustable stand, you can work or play in comfort, enjoying crisp visuals and smooth performance.",
+        "price": 439.93,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 9,
+        "title": "KeyPro Mechanical Keyboard",
+        "description": "Elevate your typing experience with the KeyPro Mechanical Keyboard. This mechanical keyboard features tactile keys and customizable backlighting to suit your style. Built for durability and precision, it's perfect for gamers and professionals alike who demand responsiveness and comfort in every keystroke.",
+        "price": 140.85,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 10,
+        "title": "GlideX Precision Mouse",
+        "description": "Achieve pinpoint accuracy with the GlideX Precision Mouse. This precision wireless mouse offers adjustable DPI settings and an ergonomic design that fits comfortably in your hand. It's responsive and lag-free, making it ideal for both intense gaming sessions and everyday productivity.",
+        "price": 132.62,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 11,
+        "title": "PowerMax Multi-Port Charger",
+        "description": "Charge all your devices efficiently with the PowerMax Multi-Port Charger. This multi-port charger supports fast charging and smart power distribution to each device. Its compact design and foldable plug make it travel-friendly, ensuring you stay powered up wherever you go.",
+        "price": 89.34,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 12,
+        "title": "LumaGlow Smart LED Bulb",
+        "description": "Brighten up your home with the LumaGlow Smart LED Bulb. This smart LED bulb lets you customize your lighting with millions of colors and schedules, all controlled from an app or voice assistant. Energy-efficient and easy to install, it transforms any room's ambiance at the tap of a button.",
+        "price": 27.32,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 13,
+        "title": "VirtuScope VR Headset",
+        "description": "Dive into immersive worlds with the VirtuScope VR Headset. This VR headset offers high-definition visuals and a wide field of view for a realistic virtual reality experience. The adjustable head strap and foam cushioning provide a comfortable fit, so you can enjoy games, simulations, and adventures for hours.",
+        "price": 310.68,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 14,
+        "title": "MicroBeam Mini Projector",
+        "description": "Turn any space into a theater with the MicroBeam Mini Projector. This mini projector delivers a crisp, bright image, ideal for movie nights or presentations. Its portable design and easy HDMI connectivity let you set up quickly, while the built-in speaker adds sound to your big-screen experience.",
+        "price": 295.88,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 15,
+        "title": "JetStream Wi-Fi Router",
+        "description": "Enjoy fast, reliable internet throughout your home with the JetStream Wi-Fi Router. This high-speed Wi-Fi router features dual-band technology and extended range antennas for strong coverage. It’s easy to set up and comes with advanced security features to keep your network safe and running smoothly.",
+        "price": 59.01,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 16,
+        "title": "GameSphere Console",
+        "description": "Level up your gaming with the GameSphere Console. This powerful console brings stunning graphics and smooth performance to your living room. With an extensive game library and online multiplayer capabilities, it's built for endless entertainment and fun for family and friends.",
+        "price": 265.3,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 17,
+        "title": "TurboCharge Power Bank",
+        "description": "Keep your devices charged on the go with the TurboCharge Power Bank. This high-capacity power bank can charge your smartphone and tablets multiple times. It features fast-charging ports and a slim, lightweight design that fits easily in your bag, making it a travel essential.",
+        "price": 107.61,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 18,
+        "title": "Aurora AR Smart Glasses",
+        "description": "Experience the future with the Aurora AR Smart Glasses. These AR smart glasses overlay useful information right in your field of view. With a stylish design and hands-free controls, you can get directions, notifications, and more without looking at your phone, blending technology seamlessly into everyday life.",
+        "price": 442.48,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 19,
+        "title": "ThunderBass Soundbar",
+        "description": "Transform your home audio with the ThunderBass Soundbar. This sleek soundbar delivers theater-quality sound with rich bass and clear treble. Easy to connect to your TV or phone via Bluetooth, it instantly upgrades movie nights and music sessions with immersive, room-filling audio.",
+        "price": 353.03,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 20,
+        "title": "SecureCam Home Security Camera",
+        "description": "Keep an eye on what matters with the SecureCam Home Security Camera. This home security camera offers crystal clear video and night vision to monitor your space day or night. With motion alerts and easy smartphone access, you can check in on your home from anywhere for peace of mind.",
+        "price": 241.31,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "catgory": "Food",
+    "data": [
+      {
+        "id": 21,
+        "title": "Golden Harvest Trail Mix",
+        "description": "Fuel your adventures with Golden Harvest Trail Mix. This blend of nuts, dried fruits, and chocolate offers a perfect balance of sweet and salty in every bite. Packed in a resealable bag for freshness, it's an energizing on-the-go snack for hikes, road trips, or busy days.",
+        "price": 6.16,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 22,
+        "title": "SpiceBlaze Hot Sauce",
+        "description": "Spice up your meals with SpiceBlaze Hot Sauce. This fiery hot sauce is crafted from sun-ripened peppers and secret spices to deliver a bold kick of heat and flavor. A few drops will elevate any dish, making it a must-have condiment for those who crave some extra zing.",
+        "price": 4.85,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 23,
+        "title": "Morning Glow Coffee Beans",
+        "description": "Start your day with Morning Glow Coffee Beans. These premium coffee beans are expertly roasted to bring out a rich aroma and smooth flavor in every cup. Whether brewed strong or mild, this coffee delivers a delightful morning pick-me-up for any coffee lover.",
+        "price": 18.9,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 24,
+        "title": "Herbal Harmony Tea Set",
+        "description": "Unwind with Herbal Harmony Tea Set. This curated set features an array of soothing herbal teas, each crafted to calm and delight your senses. Caffeine-free and aromatic, these teas are perfect for relaxing evenings or mindful morning rituals.",
+        "price": 17.4,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 25,
+        "title": "Crispy Crunch Cereal",
+        "description": "Make breakfast fun and nutritious with Crispy Crunch Cereal. Each crunchy bite is packed with whole grains and a touch of sweetness to kickstart your morning. Enjoy it with milk or as a quick snack; this cereal stays crispy and delicious to the last spoonful.",
+        "price": 6.62,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 26,
+        "title": "Midnight Delight Chocolate Cookies",
+        "description": "Indulge in Midnight Delight Chocolate Cookies. These gourmet chocolate cookies are baked to perfection, crispy at the edges and soft in the center. Made with rich cocoa and premium ingredients, they're a delightful treat for cookie lovers, perfect with a glass of milk or on their own.",
+        "price": 13.91,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 27,
+        "title": "NutriBite Protein Bars",
+        "description": "Stay energized with NutriBite Protein Bars. These protein bars are loaded with wholesome ingredients and a generous dose of protein to fuel your day. With a chewy texture and delicious flavor, they're an ideal snack for post-workout recovery or healthy munching on the move.",
+        "price": 21.35,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 28,
+        "title": "TerraSweet Organic Honey",
+        "description": "Savor the natural sweetness of TerraSweet Organic Honey. This organic honey is harvested from wildflower-fed bees, delivering a golden nectar rich in flavor. Drizzle it on toast, sweeten your tea, or use it in recipes – its pure, raw goodness shines through in every drop.",
+        "price": 12.85,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 29,
+        "title": "Emerald Grove Olive Oil",
+        "description": "Enhance your cooking with Emerald Grove Olive Oil. This extra virgin olive oil is cold-pressed from handpicked olives, preserving its rich, fruity flavor and aroma. Ideal for salads, dipping bread, or sautéing, it brings a touch of Mediterranean quality to your kitchen.",
+        "price": 15.11,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 30,
+        "title": "Grandma's Hearty Soup Can",
+        "description": "Warm up with Grandma's Hearty Soup Can. This hearty canned soup is loaded with garden vegetables and tender spices, simmered to perfection. Convenient and comforting, it's like a homemade meal in a can – just heat, serve, and enjoy a satisfying bowl anytime.",
+        "price": 5.78,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 31,
+        "title": "Sunny Citrus Marmalade",
+        "description": "Brighten your breakfast with Sunny Citrus Marmalade. Made from ripe, sun-kissed citrus, this marmalade balances sweetness and tanginess in a spoonful. Spread it on toast or pastries for a burst of fruity flavor, and taste the homemade goodness in every jar.",
+        "price": 11.62,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 32,
+        "title": "FireGrill BBQ Sauce",
+        "description": "Bring bold flavor to the grill with FireGrill BBQ Sauce. This barbecue sauce blends smoky, sweet, and tangy notes for the perfect glaze or dip. Slather it on ribs, chicken, or veggies – its thick, rich consistency makes every barbecue dish finger-licking delicious.",
+        "price": 8.2,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 33,
+        "title": "Ocean Spray Sea Salt (Seasoning)",
+        "description": "Add gourmet flair to your meals with Ocean Spray Sea Salt (Seasoning). These natural sea salt crystals are infused with a hint of herbs to elevate any dish. Use the built-in grinder to sprinkle fresh seasoning, enhancing the flavors of your cooking with ease.",
+        "price": 7.42,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 34,
+        "title": "Twilight Herbal Spice Blend",
+        "description": "Transform ordinary recipes with Twilight Herbal Spice Blend. This exclusive spice blend combines aromatic herbs and spices in just the right balance. Sprinkle it into soups, marinades, or roasts to instantly elevate your dishes with layers of mouthwatering flavor.",
+        "price": 8.83,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 35,
+        "title": "Crunchy Munchy Chips",
+        "description": "Snack happier with Crunchy Munchy Chips. These crunchy chips are kettle-cooked to golden perfection and sprinkled with a savory seasoning. Each bite delivers a satisfying crunch and delicious flavor, making them an irresistible treat for movie nights or afternoon munchies.",
+        "price": 4.57,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 36,
+        "title": "Royal Feast Mixed Nuts",
+        "description": "Treat yourself to Royal Feast Mixed Nuts. This premium mix features roasted almonds, cashews, pecans, and more for a hearty, nutritious snack. Lightly salted and packed with protein, it's a crunchy delight that’s perfect for parties, office snacks, or refueling on the go.",
+        "price": 23.88,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 37,
+        "title": "Velvet Cocoa Drink Powder",
+        "description": "Sip on something delightful with Velvet Cocoa Drink Powder. This velvety cocoa drink mix blends rich chocolate with a touch of sweetness for a comforting treat. Simply stir it into hot milk or water, and enjoy a smooth, indulgent beverage any time of day.",
+        "price": 6.47,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 38,
+        "title": "Tangy Treat Dried Fruit Mix",
+        "description": "Enjoy nature's candy with Tangy Treat Dried Fruit Mix. This assortment of dried fruits – from juicy apricots to sweet cranberries – is packed with natural sweetness and fiber. It's a wholesome snack you can enjoy by the handful or add to your baking and cereal for extra flavor.",
+        "price": 10.19,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 39,
+        "title": "Country Oven Pancake Mix",
+        "description": "Whip up a delicious breakfast in no time with Country Oven Pancake Mix. This easy-to-use pancake mix yields fluffy, golden pancakes every time. Just add water and cook – the batter is pre-blended with a hint of vanilla, making morning meals a delightful treat for the whole family.",
+        "price": 9.85,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 40,
+        "title": "Savory Bites Beef Jerky",
+        "description": "Satisfy your savory cravings with Savory Bites Beef Jerky. This beef jerky is marinated in a blend of spices and slow-smoked for a deep, rich flavor. It's a high-protein snack that's conveniently packaged for enjoying on road trips, at the office, or after a workout.",
+        "price": 19.21,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "category": "Clothing",
+    "data": [
+      {
+        "id": 41,
+        "title": "GraphicWave Cotton T-Shirt",
+        "description": "Show off your style with the GraphicWave Cotton T-Shirt. Made from 100% soft cotton, this tee offers all-day comfort and breathability. The vibrant graphic design adds a pop of personality to any outfit, making it a go-to choice for casual outings or lounging at home.",
+        "price": 26.62,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 42,
+        "title": "CloudSoft Fleece Hoodie",
+        "description": "Wrap yourself in comfort with the CloudSoft Fleece Hoodie. This fleece hoodie is ultra-soft on the inside and features a cozy hood and roomy front pocket. Whether you're relaxing at home or out for a jog, it provides warmth and a stylish laid-back look year-round.",
+        "price": 74.25,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 43,
+        "title": "ClassicFit Blue Jeans",
+        "description": "Discover timeless style with the ClassicFit Blue Jeans. Crafted from durable denim, these jeans offer a comfortable fit that moves with you. With a classic blue wash and versatile design, they're perfect for everyday wear, easily dressing up or down for any occasion.",
+        "price": 93.43,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 44,
+        "title": "Summer Breeze Sundress",
+        "description": "Embrace sunny days in the Summer Breeze Sundress. This light and breezy sundress features a flattering silhouette and soft, breathable fabric. Whether you're strolling on the beach or brunching in town, its cheerful design and comfortable fit will make it your summer favorite.",
+        "price": 51.65,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 45,
+        "title": "NightRider Leather Jacket",
+        "description": "Elevate your wardrobe with the NightRider Leather Jacket. Made from premium leather, this jacket offers a sleek, stylish look with a hint of edge. It's detailed with sturdy zippers and a smooth lining, making it perfect for a night out or adding a bold touch to any outfit.",
+        "price": 125.49,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 46,
+        "title": "ArcticShield Winter Coat",
+        "description": "Brave the cold in style with the ArcticShield Winter Coat. This heavy-duty coat is packed with insulation to keep you warm on frigid days. It features a high collar and a removable hood for extra protection, combining function and fashion for all your winter adventures.",
+        "price": 138.09,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 47,
+        "title": "Sunrise Canvas Cap",
+        "description": "Top off your look with the Sunrise Canvas Cap. Made of durable canvas with an adjustable strap, this cap ensures a comfortable fit for all. It features a minimalist embroidered design and a pre-curved brim, offering shade on sunny days and a casual cool vibe everywhere you go.",
+        "price": 13.2,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 48,
+        "title": "EverCozy Ankle Socks (5-Pack)",
+        "description": "Treat your feet to the comfort of the EverCozy Ankle Socks (5-Pack). These soft cotton-blend socks hug your feet with a snug, breathable fit. With reinforced toes and heels, they're built to last, and the convenient 5-pack means you'll always have a fresh pair ready.",
+        "price": 18.02,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 49,
+        "title": "SleekForm Oxford Shirt",
+        "description": "Look sharp with the SleekForm Oxford Shirt. Tailored from crisp cotton, this button-down dress shirt offers a polished appearance and a comfortable fit. Perfect for the office or formal events, it pairs effortlessly with suits or slacks, keeping you looking dapper all day.",
+        "price": 80.61,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 50,
+        "title": "TrailBlaze Cargo Pants",
+        "description": "Gear up for adventure with the TrailBlaze Cargo Pants. These rugged cargo pants feature multiple pockets and a flexible, durable fabric that stands up to everyday wear. Whether you're hitting the trails or running errands, they provide practical storage and comfort in a casual-cool style.",
+        "price": 66.65,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 51,
+        "title": "RosePetal Swing Skirt",
+        "description": "Twirl into fun with the RosePetal Swing Skirt. This flirty swing skirt is crafted from lightweight fabric that flows with every step. Its charming design and comfortable waistband make it easy to dress up or down, perfect for a day at the park or a night out dancing.",
+        "price": 21.32,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 52,
+        "title": "ForestHaven Knit Sweater",
+        "description": "Stay cozy and chic in the ForestHaven Knit Sweater. Knit with a soft, warm yarn, this sweater features a classic crew neck and a relaxed fit. Its forest-inspired green hue adds a touch of nature to your outfit, making it ideal for cool fall days or snuggling up by the fire.",
+        "price": 56.49,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 53,
+        "title": "FlexiStretch Yoga Pants",
+        "description": "Move with ease in the FlexiStretch Yoga Pants. These stretchy yoga pants offer a flattering high-waist and breathable material that keeps you comfortable through every pose. Whether you're at the yoga studio or running errands, they provide flexible support and style you can count on.",
+        "price": 39.02,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 54,
+        "title": "CoralWave Swim Trunks",
+        "description": "Dive into fun with the CoralWave Swim Trunks. Made from quick-drying fabric, these swim trunks feature a vibrant coral pattern that stands out at the beach or pool. An adjustable drawstring and mesh lining ensure a secure, comfortable fit so you can swim and surf with confidence.",
+        "price": 27.37,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 55,
+        "title": "BreezeLite Linen Shorts",
+        "description": "Stay cool in the BreezeLite Linen Shorts. Crafted from lightweight linen, these shorts are breathable and perfect for hot summer days. They offer a relaxed fit and a clean, casual look that pairs well with t-shirts or button-ups for effortless warm-weather style.",
+        "price": 35.53,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 56,
+        "title": "DreamEase Pajama Set",
+        "description": "Sleep soundly in the DreamEase Pajama Set. This pajama set is made from ultra-soft fabric that feels gentle on the skin. With a relaxed-fit top and elastic waist pants, it ensures maximum comfort for a good night's rest, and the charming pattern adds a bit of fun to bedtime.",
+        "price": 47.83,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 57,
+        "title": "SnugWrap Wool Scarf",
+        "description": "Bundle up with the SnugWrap Wool Scarf. Woven from plush wool, this scarf wraps you in warmth and comfort. Its classic design and rich color make it a versatile accessory, whether you're heading to work or enjoying a chilly evening stroll.",
+        "price": 23.29,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 58,
+        "title": "ThunderGrip Winter Gloves",
+        "description": "Keep your hands toasty with the ThunderGrip Winter Gloves. These winter gloves are lined with soft fleece and have a water-resistant outer layer to protect against the elements. The snug cuffs keep cold air out, making them a winter essential for commuting or snow play.",
+        "price": 14.2,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 59,
+        "title": "Elegance Evening Gown",
+        "description": "Steal the spotlight in the Elegance Evening Gown. This elegant evening gown flows to the floor with a graceful silhouette. Crafted from silky fabric with delicate detailing, it's designed to make you feel like royalty at any formal event while ensuring you stay comfortable through the night.",
+        "price": 118.42,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 60,
+        "title": "MetroLine Suit Blazer",
+        "description": "Command attention with the MetroLine Suit Blazer. This tailored suit blazer features clean lines and a modern fit, instantly elevating your professional or evening attire. Its versatile design looks great paired with matching trousers or even jeans for a smart casual twist.",
+        "price": 136.98,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "category": "Pet Toys",
+    "data": [
+      {
+        "id": 61,
+        "title": "Chew 'n' Play Bone",
+        "description": "Keep your pup happily occupied with the Chew 'n' Play Bone. Made from durable, pet-safe materials, this bone is built to withstand hours of chewing. Its textured surface helps clean teeth and massage gums, making playtime fun and beneficial for your dog's dental health.",
+        "price": 24.85,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 62,
+        "title": "TugMaster Rope Toy",
+        "description": "Enjoy interactive playtime with the TugMaster Rope Toy. This sturdy rope toy is perfect for epic games of tug-of-war or fetch. The braided fibers are tough yet gentle on your pup's teeth, providing exercise and entertainment for both of you.",
+        "price": 16.21,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 63,
+        "title": "Squeaky Bunny Plush",
+        "description": "Give your pet a cuddly new friend with the Squeaky Bunny Plush. This soft plush toy has a playful squeaker inside to keep dogs engaged. It's perfect for tossing, fetching, or snuggling at nap time, and its double-stitched seams add extra durability for hours of fun.",
+        "price": 14.37,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 64,
+        "title": "BounceMax Fetch Ball",
+        "description": "Get ready for endless fetch sessions with the BounceMax Fetch Ball. This high-bounce ball is designed for active play, whether at the park or in the backyard. Its bright color makes it easy to spot, and the durable rubber material ensures it can stand up to plenty of chomps and games.",
+        "price": 18.78,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 65,
+        "title": "SoarFlyer Frisbee Disc",
+        "description": "Take play to the park with the SoarFlyer Frisbee Disc. This lightweight frisbee flies far and true, giving your dog a great run with every toss. Made of flexible, dog-safe material, it's easy on your pup's mouth and built to handle enthusiastic catches again and again.",
+        "price": 23.88,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 66,
+        "title": "TreatMaze Puzzle Toy",
+        "description": "Challenge your pet's mind with the TreatMaze Puzzle Toy. Hide treats inside this clever puzzle and watch as your dog figures out how to retrieve them. It’s a fun, engaging way to bust boredom and reward your furry friend's curiosity and intelligence.",
+        "price": 38.49,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 67,
+        "title": "SnackDrop Treat Dispenser",
+        "description": "Make treat time more exciting with the SnackDrop Treat Dispenser. Fill this interactive toy with your pet's favorite kibble or treats, and let them roll or paw it to get the goodies out. It encourages active play and slows down eating for better digestion, all while keeping them entertained.",
+        "price": 17.16,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 68,
+        "title": "FeatherLite Cat Wand",
+        "description": "Delight your cat with the FeatherLite Cat Wand. This interactive wand features fluttering feathers that will trigger your feline's hunting instincts. Wave it around for an engaging play session – it's a wonderful way to bond and keep your cat active and happy.",
+        "price": 35.8,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 69,
+        "title": "Whisker Chaser Catnip Mouse",
+        "description": "Watch your cat leap into action with the Whisker Chaser Catnip Mouse. Stuffed with premium catnip, this toy mouse will become your kitty’s favorite prey. It's lightweight and perfectly sized for batting and carrying, providing endless amusement and exercise for your feline friend.",
+        "price": 13.04,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 70,
+        "title": "Hideaway Cat Tunnel",
+        "description": "Give your pet a fun hideaway with the Hideaway Cat Tunnel. This collapsible tunnel offers cats (and small dogs) a playful space to explore, hide, and zoom through. It features crinkly lining and multiple openings, delivering hours of entertainment and easy fold-away storage when playtime is over.",
+        "price": 18.26,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 71,
+        "title": "LaserChase Pointer",
+        "description": "Keep your pet entertained for hours with the LaserChase Pointer. Simply shine the laser and watch as cats (and even dogs) chase the elusive red dot. This pocket-sized toy provides endless fun and exercise, and it's a fantastic way to engage your pet in interactive play.",
+        "price": 19.03,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 72,
+        "title": "ScratchPal Cardboard Post",
+        "description": "Protect your furniture with the ScratchPal Cardboard Post. This scratch post offers cats a satisfying place to sharpen their claws. Made with sturdy cardboard and catnip infusion, it attracts your cat to scratch and play, keeping them happy and your sofa safe.",
+        "price": 36.33,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 73,
+        "title": "PuppyTeeth Chew Ring",
+        "description": "Help your puppy through teething with the PuppyTeeth Chew Ring. This chew ring is made of flexible, puppy-safe rubber with multiple textures to soothe aching gums. You can even chill it for extra relief, giving your young pup a comforting and fun toy to gnaw on.",
+        "price": 25.44,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 74,
+        "title": "Quackie Squeaky Duck",
+        "description": "Add some squeaky fun to playtime with the Quackie Squeaky Duck. Shaped like a cute duck, this rubber toy makes an irresistible squeak with every bite. It's great for fetching in the yard or water, and its durable design means your pup can enjoy endless squeaky antics.",
+        "price": 25.74,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 75,
+        "title": "CrinkleCrunch Toy",
+        "description": "Spark your pet's curiosity with the CrinkleCrunch Toy. This toy is filled with crinkle material that makes an intriguing sound every time it's squeezed or pounced. Its soft exterior is perfect for cuddling, and the playful crackle inside will keep cats and dogs entertained.",
+        "price": 19.65,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 76,
+        "title": "FloatFetch Water Ring",
+        "description": "Make a splash with the FloatFetch Water Ring. This floating ring toy is perfect for water-loving dogs – it stays buoyant in pools and lakes for easy fetching. The soft, durable material is gentle on teeth and stands up to vigorous play, both in and out of the water.",
+        "price": 47.88,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 77,
+        "title": "SpikeBall Dental Toy",
+        "description": "Give your dog a toy that’s fun and beneficial with the SpikeBall Dental Toy. Covered in soft rubber spikes, this ball massages gums and helps clean teeth as your dog chews. It bounces unpredictably to keep your pup guessing, providing an exciting and healthy play experience.",
+        "price": 29.65,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 78,
+        "title": "Burrow Buddies Plush Set",
+        "description": "Engage your dog's natural instincts with the Burrow Buddies Plush Set. This plush puzzle comes with little toys hidden inside a larger toy – your pup will love sniffing them out and pulling them free. It's a cute and interactive game that offers mental stimulation and tail-wagging fun.",
+        "price": 36.3,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 79,
+        "title": "ChillChew Freezable Toy",
+        "description": "Help your pet chill out with the ChillChew Freezable Toy. Designed to be filled with water and frozen, this toy provides a refreshing, cool treat on hot days or soothing relief for teething pups. Its rugged design can handle chewing, making it a summer must-have for your furry friend.",
+        "price": 11.36,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 80,
+        "title": "JingleBell Ball Toy",
+        "description": "Keep your kitty captivated with the JingleBell Ball Toy. This little ball has a jingly bell inside that rings with every bat and roll. It's the perfect size for cats to paw around, offering endless entertainment and exercise as they chase and pounce.",
+        "price": 7.33,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "category": "Shoes",
+    "data": [
+      {
+        "id": 81,
+        "title": "Lightning Sprint Running Shoes",
+        "description": "Hit the ground running with the Lightning Sprint Running Shoes. These athletic shoes feature lightweight mesh uppers and cushioned soles to absorb impact on every stride. Designed for runners, they provide excellent support and breathability, helping you go the extra mile in comfort and style.",
+        "price": 74.9,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 82,
+        "title": "SkyHigh High-Top Sneakers",
+        "description": "Step out in style with the SkyHigh High-Top Sneakers. These trendy high-top sneakers offer ankle support and a bold look, combining fashion and function. With a cushioned insole and durable canvas exterior, they're perfect for daily wear and adding some street-smart flair to your outfit.",
+        "price": 89.18,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 83,
+        "title": "Thunderbolt Cross Trainers",
+        "description": "Train harder with the Thunderbolt Cross Trainers. Built for versatility, these cross trainers provide stability and cushioning for a variety of workouts. The breathable design keeps your feet cool, while the tough outsole offers great traction, making them ideal for gym sessions, classes, or outdoor training.",
+        "price": 37.54,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 84,
+        "title": "CloudWalk Knit Sneakers",
+        "description": "Experience cloud-like comfort with the CloudWalk Knit Sneakers. Designed for all-day wear, these knit sneakers feature memory foam insoles that cradle your feet. The slip-on design and stretchy materials make them convenient and snug, perfect for long walks, travel, or casual everyday style.",
+        "price": 173.83,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 85,
+        "title": "Classic Leather Loafers",
+        "description": "Complete your look with the Classic Leather Loafers. These classic loafers are crafted from genuine leather and feature a sleek slip-on design. A cushioned footbed and flexible sole ensure comfort, while the timeless style makes them a versatile choice for both business attire and casual outfits.",
+        "price": 113.78,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 86,
+        "title": "Dancer's Grace Ballet Flats",
+        "description": "Step into elegance with the Dancer's Grace Ballet Flats. These ballet flats combine comfort and grace, featuring a soft lining and a flexible sole that moves with you. With a simple yet chic design, they're ideal for work, parties, or anytime you want a break from heels without sacrificing style.",
+        "price": 72.13,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 87,
+        "title": "Midnight Chic Stiletto Heels",
+        "description": "Turn heads with the Midnight Chic Stiletto Heels. These stiletto heels boast a sophisticated design with a glossy finish and a secure ankle strap. The tall, slender heels elevate your ensemble, while a lightly padded insole provides added comfort, making them perfect for date nights or special occasions.",
+        "price": 141.92,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 88,
+        "title": "Luxe Comfort Wedge Sandals",
+        "description": "Enjoy sunshine in style with the Luxe Comfort Wedge Sandals. These wedge sandals give you a boost of height with a stable, comfortable platform. Featuring soft straps and a cushioned footbed, they’re perfect for summer outings, offering a chic look without compromising on comfort.",
+        "price": 91.55,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 89,
+        "title": "Urban Explorer Ankle Boots",
+        "description": "Strut the streets with confidence in the Urban Explorer Ankle Boots. These ankle boots blend urban style with comfort, showcasing a sturdy block heel and secure lace-up or zip closure. The cushioned interior and durable sole make them ideal for all-day wear, from city walks to weekend adventures.",
+        "price": 74.06,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 90,
+        "title": "Regal Suede Chelsea Boots",
+        "description": "Add a touch of class with the Regal Suede Chelsea Boots. These suede Chelsea boots feature the iconic elastic side panels and a pull tab for easy wear. They offer a refined, modern look and pair effortlessly with jeans or slacks, providing all-day comfort and a sophisticated finish to any outfit.",
+        "price": 96.5,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 91,
+        "title": "Mountain Trekking Hiking Boots",
+        "description": "Conquer the trails with the Mountain Trekking Hiking Boots. These hiking boots are built for outdoor exploration, featuring waterproof materials and a high-traction sole for grip on rough terrain. The padded ankle support and breathable lining keep your feet protected and comfortable on long hikes in any weather.",
+        "price": 106.36,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 92,
+        "title": "SteelGuard Work Boots",
+        "description": "Take on tough jobs with the SteelGuard Work Boots. These work boots feature a reinforced steel toe and shock-absorbing sole to guard against workplace hazards. The heavy-duty leather and secure lacing provide durability and support, ensuring your feet stay safe and comfortable during long workdays.",
+        "price": 112.27,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 93,
+        "title": "RainStep Waterproof Boots",
+        "description": "Stay dry and stylish with the RainStep Waterproof Boots. These waterproof boots are made of durable rubber to keep out rain and mud. A soft lining adds comfort, while the slip-resistant sole ensures steady footing on wet surfaces, making them perfect for rainy commutes or puddle-jumping fun.",
+        "price": 80.93,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 94,
+        "title": "Wanderer Cowboy Boots",
+        "description": "Embrace a bit of country flair with the Wanderer Cowboy Boots. Crafted from genuine leather with classic embroidery, these cowboy boots offer rugged durability and style. They feature a comfortable insole and a sturdy heel, whether you're walking around town or kicking up your heels on the dance floor.",
+        "price": 146.12,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 95,
+        "title": "SunnyTrail Beach Sandals",
+        "description": "Enjoy laid-back comfort with the SunnyTrail Beach Sandals. These beach sandals feature soft, quick-dry straps and a cushioned sole, making them perfect for seaside strolls or casual summer days. They slip on easily and provide a relaxed fit, so you can savor the sun in comfort.",
+        "price": 38.09,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 96,
+        "title": "BreezyFlip Flip-Flops",
+        "description": "Keep it simple and casual with the BreezyFlip Flip-Flops. These flip-flops are lightweight with a flexible foam sole that makes every step feel easy. Perfect for the beach, pool, or just lounging, they're the go-to footwear for laid-back comfort and breezy summer vibes.",
+        "price": 36.78,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 97,
+        "title": "CozyStep Memory Foam Slippers",
+        "description": "Relax your feet in the CozyStep Memory Foam Slippers. Lined with plush memory foam, these slippers provide warm, cushioned comfort after a long day. The slip-on design and non-slip sole make them perfect for padding around the house, letting you unwind in cozy style.",
+        "price": 43.73,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 98,
+        "title": "SwiftStrike Soccer Cleats",
+        "description": "Reach peak performance with the SwiftStrike Soccer Cleats. These soccer cleats are engineered for speed and control on the field. They feature a lightweight build and molded studs for superior traction on grass, helping you make quick cuts and powerful shots with confidence during every match.",
+        "price": 76.14,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 99,
+        "title": "HoopsMaster Basketball Shoes",
+        "description": "Dominate the court with the HoopsMaster Basketball Shoes. Designed for basketball players, these shoes offer excellent ankle support and responsive cushioning for jumps and quick movements. The breathable upper keeps your feet cool, while the high-traction sole helps you pivot and sprint with precision.",
+        "price": 122.05,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 100,
+        "title": "EverydayWalk Casual Sneakers",
+        "description": "Step into everyday comfort with the EverydayWalk Casual Sneakers. These casual sneakers blend a classic design with modern cushioning, making them perfect for daily errands or meet-ups with friends. Versatile and comfortable, they pair well with almost any outfit, becoming a staple in your footwear lineup.",
+        "price": 183.03,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+]
