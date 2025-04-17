@@ -1,14 +1,9 @@
-// "use client"
+"use client"
 
-import type { Metadata } from "next"
 import "./globals.css"
 import NavBar from "@/components/layout/NavBar"
 import Footer from "@/components/layout/Footer"
-
-export const metadata: Metadata = {
-  title: "Nextjs Commerce",
-  description: "Created by 0xRenegade",
-}
+import { SessionProvider } from "next-auth/react"
 
 export default function RootLayout({
   children,
@@ -17,11 +12,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Nextjs eCommerce</title>
+      </head>
       <body>
         <div className="flex flex-col min-h-screen">
-          <NavBar />
-          {children}
-          <Footer />
+          <SessionProvider>
+            <NavBar />
+            {children}
+            <Footer />
+          </SessionProvider>
         </div>
       </body>
     </html>

@@ -14,6 +14,7 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faShop, faCartShopping } from "@fortawesome/free-solid-svg-icons"
 import SearchBar from "@/components/ui/searchbar"
+import { signOut, useSession } from "next-auth/react"
 
 library.add(faShop, faCartShopping)
 
@@ -38,10 +39,15 @@ const NavItem = {
     TITLE: "Sign Up",
     LINK: "/register",
   },
+  SIXTH: {
+    TITLE: "Logout",
+    LINK: null,
+  },
 }
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
+  const { data: session } = useSession()
 
   return (
     <nav className="bg-white shadow-md p-4">
@@ -74,18 +80,30 @@ export default function NavBar() {
           <Link href="/cart" className="flex items-center justify-center">
             <FontAwesomeIcon icon={faCartShopping} size="2xl" />
           </Link>
-          <Link
-            href={NavItem.FOURTH.LINK}
-            className="text-slate-100 bg-slate-950 p-2 rounded"
-          >
-            {NavItem.FOURTH.TITLE}
-          </Link>
-          <Link
-            href={NavItem.FIFTH.LINK}
-            className="text-slate-100 bg-slate-950 p-2 rounded"
-          >
-            {NavItem.FIFTH.TITLE}
-          </Link>
+          {!session && (
+            <>
+              <Link
+                href={NavItem.FOURTH.LINK}
+                className="text-slate-100 bg-slate-950 p-2 rounded"
+              >
+                {NavItem.FOURTH.TITLE}
+              </Link>
+              <Link
+                href={NavItem.FIFTH.LINK}
+                className="text-slate-100 bg-slate-950 p-2 rounded"
+              >
+                {NavItem.FIFTH.TITLE}
+              </Link>
+            </>
+          )}
+          {session && (
+            <button
+              onClick={() => signOut({ callbackUrl: "/" })}
+              className="text-slate-100 bg-slate-950 p-2 rounded cursor-pointer"
+            >
+              {NavItem.SIXTH.TITLE}
+            </button>
+          )}
         </div>
 
         {/* Mobile Menu Button */}
