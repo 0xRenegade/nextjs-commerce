@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client"
 import fs from "fs"
+import bcrypt from "bcrypt"
 
 const prisma = new PrismaClient()
 
@@ -38,6 +39,16 @@ const seedDatabase = async () => {
           })
         }
       })
+    })
+
+    const password = await bcrypt.hash("admin123", 10)
+
+    await prisma.users.create({
+      data: {
+        email: "admin@admin.com",
+        password: password,
+        role: "SHOP_OWNER",
+      },
     })
   } catch (error) {
     console.log(error)
