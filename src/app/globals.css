@@ -121,3 +121,17 @@
   border-radius: 20px;
   max-width: 200px;
 }
+
+.form-success,
+.form-error {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.form-succes {
+  color: green
+}
+
+.form-error {
+  color: red;
+}

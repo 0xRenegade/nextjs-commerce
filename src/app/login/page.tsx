@@ -1,3 +1,5 @@
+"use client"
+
 import type React from "react"
 import { Button } from "@/components/ui/button"
 import {
@@ -10,11 +12,40 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
+import { useState } from "react"
+import { useRouter } from "next/navigation"
+import { signIn } from "next-auth/react"
 
 export default function Login({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [error, setError] = useState<null | string>(null)
+  const router = useRouter()
+
+  const handleSubmit = async (e: any): Promise<void> => {
+    e.preventDefault()
+    const res: any = await signIn("credentials", {
+      redirect: false,
+      email,
+      password,
+    })
+
+    if (res.error) {
+      console.log(res.error)
+
+      if (res.status === 401) {
+        setError("Incorrect username or password")
+      }
+
+      return
+    }
+
+    router.push("/dashboard")
+  }
+
   return (
     <main className="flex flex-1 flex-col items-center justify-center text-center p-4 gap-5">
       <Card>
@@ -28,13 +59,16 @@ export default function Login({
           <form>
             <div className="flex flex-col gap-6">
               <div className="grid gap-2">
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="me@example.com"
-                  required
-                />
+                <div className="flex items-start flex-col gap-2">
+                  <Label htmlFor="email">Email</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    onChange={(e: any) => setEmail(e.target.value)}
+                    required
+                  />
+                </div>
               </div>
               <div className="grid gap-2">
                 <div className="flex items-center">
@@ -46,14 +80,23 @@ export default function Login({
                     Forgot your password?
                   </Link>
                 </div>
-                <Input id="password" type="password" required />
+                <Input
+                  id="password"
+                  type="password"
+                  onChange={(e: any) => setPassword(e.target.value)}
+                  required
+                />
               </div>
-              <Button type="submit" className="w-full">
+              <Button
+                onClick={(e) => handleSubmit(e)}
+                type="submit"
+                className="w-full"
+              >
                 Login
               </Button>
-              <Button variant="outline" className="w-full">
+              {/* <Button variant="outline" className="w-full">
                 Login with Google
-              </Button>
+              </Button> */}
             </div>
             <div className="mt-4 text-center text-sm">
               Don&apos;t have an account?{" "}
