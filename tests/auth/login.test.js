@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react"
 import { useSession, signIn } from "next-auth/react"
-import Login from "../src/app/login/page"
+import Login from "@/app/login/page"
 
 jest.mock("next-auth/react", () => ({
   useSession: jest.fn(),
@@ -19,7 +19,7 @@ describe("AuthComponent", () => {
       error: null,
       ok: true,
       status: 200,
-      url: null
+      url: null,
     })
 
     render(<Login />)
