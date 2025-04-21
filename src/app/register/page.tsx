@@ -3,7 +3,7 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
-import { ChangeEvent, useState } from "react"
+import { MouseEvent, ChangeEvent, useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { useRouter } from "next/navigation"
@@ -16,7 +16,9 @@ export default function Register() {
   const [message, setMessage] = useState<null | string>(null)
   const router = useRouter()
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (
+    e: MouseEvent<HTMLButtonElement>
+  ): Promise<void> => {
     e.preventDefault()
 
     setError(null)
@@ -42,9 +44,6 @@ export default function Register() {
         password: password,
       }),
     })
-
-    const data = await res.json()
-    console.log(res.status)
 
     if (res.status === 400) {
       setError("User already exists")
@@ -108,7 +107,10 @@ export default function Register() {
                   />
                 </div>
               </div>
-              <Button onClick={handleSubmit} className="w-full">
+              <Button
+                onClick={(e: MouseEvent<HTMLButtonElement>) => handleSubmit(e)}
+                className="w-full"
+              >
                 Register
               </Button>
               {error && <p className="form-error">{error}</p>}

@@ -12,31 +12,30 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
-import { useState } from "react"
+import { MouseEvent, ChangeEvent, useState } from "react"
 import { useRouter } from "next/navigation"
-import { signIn } from "next-auth/react"
+import { signIn, SignInResponse } from "next-auth/react"
 
-export default function Login({
-  className,
-  ...props
-}: React.ComponentPropsWithoutRef<"div">) {
+export default function Login() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState<null | string>(null)
   const router = useRouter()
 
-  const handleSubmit = async (e: any): Promise<void> => {
+  const handleSubmit = async (
+    e: MouseEvent<HTMLButtonElement>
+  ): Promise<void> => {
     e.preventDefault()
-    const res: any = await signIn("credentials", {
+    const res: SignInResponse | undefined = await signIn("credentials", {
       redirect: false,
       email,
       password,
     })
 
-    if (res.error) {
-      console.log(res.error)
+    if (res?.error) {
+      console.log(res?.error)
 
-      if (res.status === 401) {
+      if (res?.status === 401) {
         setError("Incorrect username or password")
       }
 
@@ -65,7 +64,9 @@ export default function Login({
                     id="email"
                     type="email"
                     placeholder="me@example.com"
-                    onChange={(e: any) => setEmail(e.target.value)}
+                    onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                      setEmail(e.target.value)
+                    }
                     required
                   />
                 </div>
@@ -83,12 +84,15 @@ export default function Login({
                 <Input
                   id="password"
                   type="password"
-                  onChange={(e: any) => setPassword(e.target.value)}
+                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                    setPassword(e.target.value)
+                  }
                   required
                 />
               </div>
+              {error && <p className="form-error">{error}</p>}
               <Button
-                onClick={(e) => handleSubmit(e)}
+                onClick={(e: MouseEvent<HTMLButtonElement>) => handleSubmit(e)}
                 type="submit"
                 className="w-full"
               >
