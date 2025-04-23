@@ -109,7 +109,7 @@ export default function Register() {
               </div>
               <Button
                 onClick={(e: MouseEvent<HTMLButtonElement>) => handleSubmit(e)}
-                className="w-full"
+                className="w-full cursor-pointer"
               >
                 Register
               </Button>

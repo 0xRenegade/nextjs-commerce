@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import NextAuth from "next-auth"
 
 // Override interfaces from next-auth module because we use id as number instead of string

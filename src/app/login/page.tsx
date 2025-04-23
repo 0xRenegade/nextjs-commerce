@@ -94,7 +94,7 @@ export default function Login() {
               <Button
                 onClick={(e: MouseEvent<HTMLButtonElement>) => handleSubmit(e)}
                 type="submit"
-                className="w-full"
+                className="w-full cursor-pointer"
               >
                 Login
               </Button>
