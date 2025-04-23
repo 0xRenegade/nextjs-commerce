@@ -22,11 +22,4 @@ export async function GET(
   }
 
   return NextResponse.json({ product: product }, { status: 200 })
-
-  // return new Response(JSON.stringify({ product: product }), {
-  //   status: 200,
-  //   headers: {
-  //     "Content-Type": "application.json",
-  //   },
-  // })
 }
