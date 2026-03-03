@@ -21,6 +21,14 @@ export default function CategorySidebar() {
     <aside className="bg-white p-4 rounded-xl shadow-sm space-y-2">
       <h2 className="text-xl font-semibold">Categories</h2>
       <ul className="space-y-1">
+        <li>
+          <button
+            className="text-left w-full text-gray-700 hover:text-black cursor-pointer"
+            onClick={() => setSelectedCategory(null)}
+          >
+            All
+          </button>
+        </li>
         {categories.map((category: Category) => (
           <li key={category.id}>
             <button
