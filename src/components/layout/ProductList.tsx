@@ -18,7 +18,11 @@ export default function ProductList() {
         : "/api/products"
       const res = await fetch(url)
       const data = await res.json()
-      setProducts(data.products)
+      // give time to show off loading icon
+      // would not do this in production, just for looks
+      setTimeout(() => {
+        setProducts(data.products)
+      }, 3000)
     }
     fetchProducts()
   }, [selectedCategory])
@@ -26,6 +30,14 @@ export default function ProductList() {
   const filtered = products.filter((p) =>
     p.title.toLowerCase().includes(search.toLowerCase()),
   )
+
+  if (products.length == 0) {
+    return (
+      <div className="space-y-4 flex justify-center">
+        <img className="my-8 h-75 w-75" src="/loading.svg" alt="Loading Icon" />
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-4">
