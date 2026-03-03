@@ -18,14 +18,13 @@ export default function ProductList() {
         : "/api/products"
       const res = await fetch(url)
       const data = await res.json()
-      console.log(data)
       setProducts(data.products)
     }
     fetchProducts()
   }, [selectedCategory])
 
   const filtered = products.filter((p) =>
-    p.title.toLowerCase().includes(search.toLowerCase())
+    p.title.toLowerCase().includes(search.toLowerCase()),
   )
 
   return (
